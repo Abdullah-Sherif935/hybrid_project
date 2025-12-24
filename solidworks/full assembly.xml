@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/22/25||23:32:42" using="Simscape Multibody Link Version 7.4" from="SolidWorks 31.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="full assembly" uid="full assembly" version="324">
+<AssemblyFile name="full assembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Base-1" uid="Base-1" grounded="true" entityUid="Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>0.012383012613042865 -0.048404709819543312 0.045908598744801382</Translation>
+</Transform>
+</Instance>
+<Instance name="Base cover-1" uid="Base cover-1" entityUid="Base cover*:*Default">
+<Transform>
+<Rotation>-0.99999999999999989 1.0380585280245214e-14 0 0 -1.0474444016529345e-14 0.99999999999999978 1.0380585280245214e-14 0.99999999999999989 1.0474444016529343e-14</Rotation>
+<Translation>0.012383012613042865 0.08659529018045671 0.045908598744802798</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.90196078431372551" g="0.70980392156862748" b="0.4392156862745098" a="1"/>
+<Diffuse r="0.72156862745098049" g="0.56784313725490199" b="0.35137254901960785" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="cover of the bearing-1" uid="cover of the bearing-1" entityUid="cover of the bearing*:*Default">
+<Transform>
+<Rotation>0.99849319960840843 -0.054875589616543853 0 5.7479129131255596e-16 1.0458661120183516e-14 0.99999999999999989 -0.054875589616543853 -0.99849319960840843 1.0474444016529331e-14</Rotation>
+<Translation>0.012383012613042864 0.093595290180456717 0.045908598744802874</Translation>
+</Transform>
+</Instance>
+<Instance name="cross holder of the motor-1" visible="false" uid="cross holder of the motor-1" entityUid="cross holder of the motor*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15</Rotation>
+<Translation>0.012383012613042803 0.022595290180457018 0.045908598744801979</Translation>
+</Transform>
+</Instance>
+<Instance name="MH2530-6.35-10-1" uid="MH2530-6.35-10-1" entityUid="MH2530-6.35-10*:*Default">
+<Transform>
+<Rotation>0.99776380861419034 -0.066838478586106115 2.7636542671961297e-16 -5.604249891251241e-16 -1.2500841072186647e-14 -1 0.066838478586106115 0.99776380861419034 -1.2510344752700406e-14</Rotation>
+<Translation>0.012383012613042872 0.052995290180456692 0.045908598744802465</Translation>
+</Transform>
+</Instance>
+<Instance name="encoder fixation-1" uid="encoder fixation-1" entityUid="encoder fixation*:*Default">
+<Transform>
+<Rotation>-1 -5.7812228256488223e-16 0 -5.7812228256488795e-16 1 1.2317716710650114e-14 0 1.2317716710650117e-14 -1</Rotation>
+<Translation>0.012383012613042834 0.12714529018045642 0.0639085987476532</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.90196078431372551" g="0.70980392156862748" b="0.4392156862745098" a="1"/>
+<Diffuse r="0.72156862745098049" g="0.56784313725490199" b="0.35137254901960785" a="1"/>
+<Specular r="0.045098039215686281" g="0.035490196078431374" b="0.021960784313725491" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="link 2-1" uid="link 2-1" entityUid="link 2*:*Default">
+<Transform>
+<Rotation>1.6653345369377348e-16 0 -1 1.2337353361147052e-14 -1 -2.0122792321330962e-16 -0.99999999999999989 -1.2309597785531423e-14 0</Rotation>
+<Translation>0.012383012613042789 0.30139529018045524 0.15790859874765537</Translation>
+</Transform>
+</Instance>
+<Instance name="holder of Encoder-1" uid="holder of Encoder-1" entityUid="holder of Encoder*:*Default">
+<Transform>
+<Rotation>0 -5.7812228256456274e-16 -1 -1.2317716710649549e-14 1 -5.7812228256456353e-16 1 1.2317716710649549e-14 0</Rotation>
+<Translation>0.012383012613042846 0.06239529018045669 0.045908598744802583</Translation>
+</Transform>
+</Instance>
+<Instance name="cover of the bearing-3" uid="cover of the bearing-3" entityUid="cover of the bearing*:*Default">
+<Transform>
+<Rotation>-0.36559004076474166 0.93077597846830706 0 -0.93077597846830717 -0.36559004076474172 -1.2321305568227115e-14 -1.1435297153639112e-14 -4.6629367034256575e-15 1</Rotation>
+<Translation>0.012383012613042838 0.15139529018059011 0.11090859874749567</Translation>
+</Transform>
+</Instance>
+<Instance name="second link holder-1" uid="second link holder-1" entityUid="second link holder*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 -5.7812228256490353e-16 0 -5.7812228256490747e-16 1 1.2317716710650085e-14 0 1.2317716710650087e-14 -1.0000000000000002</Rotation>
+<Translation>0.012383012613042824 0.12739529018045587 0.11090859874765321</Translation>
+</Transform>
+</Instance>
+<Instance name="NTN_6000  (Bearing 10x26x8)-8" uid="NTN_6000  (Bearing 10x26x8)-8" entityUid="NTN_6000  (Bearing 10x26x8)*:*Default">
+<Transform>
+<Rotation>0 1 1.0474444016529345e-14 -1 0 -1.0474444016529345e-14 -1.0474444016529345e-14 -1.0474444016529345e-14 1</Rotation>
+<Translation>0.012383012613042864 0.096595290180456692 0.045908598744802909</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.13500000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base cover-1</Uid>
+</InstancePath>
+<Position>0 0 0.0099999999999999811</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.0465 4.8572257327350599e-16 0.127</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base cover-1</Uid>
+</InstancePath>
+<Position>-0.046499999999999986 0 0.0099999999999999811</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.13500000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base cover-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base cover-1</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000018</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cover of the bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000053</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base cover-1</Uid>
+</InstancePath>
+<Position>0 0 0.012999999999999984</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cover of the bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000053</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base cover-1</Uid>
+</InstancePath>
+<Position>0.017473630993147159 0.00096032281828933169 0</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cover of the bearing-1</Uid>
+</InstancePath>
+<Position>-0.017500000000000009 0 0.0089999999999999941</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0080000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>cross holder of the motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000019</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.065000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cross holder of the motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000019</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cover of the bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0.0089999999999999941</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>holder of Encoder-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>holder of Encoder-1</Uid>
+</InstancePath>
+<Position>0.011999999999999997 -0.029999999999999992 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>encoder fixation-1</Uid>
+</InstancePath>
+<Position>0 0.039250000000000007 0.0059999999999999984</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>holder of Encoder-1</Uid>
+</InstancePath>
+<Position>0.017999999999999988 -0.029999999999999999 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>encoder fixation-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>holder of Encoder-1</Uid>
+</InstancePath>
+<Position>0.01500000000284981 0.059999999999999977 -0.025999999999999995</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>encoder fixation-1</Uid>
+</InstancePath>
+<Position>-0.026000000000000013 0.012249999999999983 0.0029999999999999957</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>holder of Encoder-1</Uid>
+</InstancePath>
+<Position>0 0.068999999999999978 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>encoder fixation-1</Uid>
+</InstancePath>
+<Position>0 0.0042500000000000038 0.0059999999999999984</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>holder of Encoder-1</Uid>
+</InstancePath>
+<Position>0.055000000000000007 -0.029999999999999992 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>second link holder-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>holder of Encoder-1</Uid>
+</InstancePath>
+<Position>0.065000000000000002 -0.029999999999999992 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>second link holder-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>holder of Encoder-1</Uid>
+</InstancePath>
+<Position>0.060000000002849802 0.059999999999999977 -0.026000000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>second link holder-1</Uid>
+</InstancePath>
+<Position>-0.026000000000000023 0.012000000000000011 0.0050000000000000044</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>holder of Encoder-1</Uid>
+</InstancePath>
+<Position>0 0.068999999999999978 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>second link holder-1</Uid>
+</InstancePath>
+<Position>0 0.0040000000000000036 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cover of the bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0.0089999999999999941</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MH2530-6.35-10-1</Uid>
+</InstancePath>
+<Position>0 0 0.030400000000000003</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cross holder of the motor-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MH2530-6.35-10-1</Uid>
+</InstancePath>
+<Position>0 0 0.030400000000000003</Position>
+<Axis>1.2246467991473495e-16 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>second link holder-1</Uid>
+</InstancePath>
+<Position>0 0.024000000000000021 -0.0030000000000000027</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cover of the bearing-3</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000053</Position>
+<Axis>0 1.0672165235949084e-16 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base cover-1</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000018</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NTN_6000  (Bearing 10x26x8)-8</Uid>
+</InstancePath>
+<Position>0.0079999999999999932 0.010439999999999998 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cover of the bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0.0089999999999999941</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>NTN_6000  (Bearing 10x26x8)-8</Uid>
+</InstancePath>
+<Position>0.0040000000000000036 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>holder of Encoder-1</Uid>
+</InstancePath>
+<Position>0 -0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MH2530-6.35-10-1</Uid>
+</InstancePath>
+<Position>0 0 0.0206</Position>
+<Axis>-1.2246467991473495e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Lock3">
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>second link holder-1</Uid>
+</InstancePath>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>cover of the bearing-3</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Concentric name="Concentric27">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>holder of Encoder-1</Uid>
+</InstancePath>
+<Position>0 -0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MH2530-6.35-10-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>encoder fixation-1</Uid>
+</InstancePath>
+<Position>0 0 0.0059999999999999984</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>link 2-1</Uid>
+</InstancePath>
+<Position>0.099999999999999964 0.14999999999999999 0</Position>
+<Axis>0.99999999999999989 0 -1.1102230246251819e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric28">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>encoder fixation-1</Uid>
+</InstancePath>
+<Position>0 0.024250000000000022 0.0059999999999999984</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>link 2-1</Uid>
+</InstancePath>
+<Position>-0.011100000000000027 0.14999999999999999 0</Position>
+<Axis>0.99999999999999989 0 -1.1102230246251819e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric29">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>second link holder-1</Uid>
+</InstancePath>
+<Position>0 0.024000000000000021 0.009999999999999995</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>link 2-1</Uid>
+</InstancePath>
+<Position>-0.011100000000000027 0.14999999999999999 0</Position>
+<Axis>0.99999999999999989 0 -1.1102230246251819e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base cover" uid="Base cover*:*Default" version="173">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base cover.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.055215799464703473</Mass>
+<CenterOfMass>0 0 0.005000553141879231</CenterOfMass>
+<Inertia>2.8402564494903787e-05 2.8383055602164368e-05 5.5820171216476304e-05 0 0 1.0754257932573799e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Base cover_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base" uid="Base*:*Default" version="288">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18366490622675308</Mass>
+<CenterOfMass>0.00015897869133713215 -5.5656693241183736e-09 0.055009131850874138</CenterOfMass>
+<Inertia>0.00050418091681819397 0.00050711229052627805 0.00030436548745799575 -8.1063692416942082e-11 1.2263425920330893e-06 -1.0184594390503878e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MH2530-6.35-10" uid="MH2530-6.35-10*:*Default" version="116">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MH2530-6.35-10.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.033169538362843483</Mass>
+<CenterOfMass>-0.00011690260716762132 0.00011972199712261119 0.014855806045283214</CenterOfMass>
+<Inertia>4.0233716288523306e-06 4.0255070043399917e-06 2.8988625031834008e-06 1.7499762886790505e-08 1.9560255069627527e-08 -1.5085605290465309e-08</Inertia>
+</MassProperties>
+<GeometryFile name="MH2530-6.35-10_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="NTN_6000  (Bearing 10x26x8)" uid="NTN_6000  (Bearing 10x26x8)*:*Default" version="117">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="NTN_6000  (Bearing 10x26x8).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0024058880971057381</Mass>
+<CenterOfMass>0.0039999999999999897 0 0</CenterOfMass>
+<Inertia>2.4774912559483395e-07 1.3636205316357995e-07 1.363620531635822e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="NTN_6000  (Bearing 10x26x8)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="cover of the bearing" uid="cover of the bearing*:*Default" version="359">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="cover of the bearing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0042955426434030195</Mass>
+<CenterOfMass>0 0 0.0054858316198365025</CenterOfMass>
+<Inertia>3.2517227384146215e-07 3.7100711526980165e-07 6.3806956626316584e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="cover of the bearing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="cross holder of the motor" uid="cross holder of the motor*:*Default" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="cross holder of the motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015490164947771702</Mass>
+<CenterOfMass>0 0 0.0030000000000000001</CenterOfMass>
+<Inertia>5.0622371338011283e-06 5.0622371338011182e-06 1.0031533277915615e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="cross holder of the motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="encoder fixation" uid="encoder fixation*:*Default" version="175">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="encoder fixation.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.012056274830138042</Mass>
+<CenterOfMass>0 0.023611162999743432 0.0030000000000000005</CenterOfMass>
+<Inertia>2.6836972967462447e-06 2.113118339933326e-06 4.7231597675673141e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="encoder fixation_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="holder of Encoder" uid="holder of Encoder*:*Default" version="328">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="holder of Encoder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.047495990983000905</Mass>
+<CenterOfMass>0.022600394853128078 0.056961335651446635 5.8777924348039056e-08</CenterOfMass>
+<Inertia>2.8339491317199342e-05 4.8866566567302449e-05 6.0748609612645894e-05 -2.1045808107880215e-11 -8.8286344026263762e-12 -8.0922145263178794e-06</Inertia>
+</MassProperties>
+<GeometryFile name="holder of Encoder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="link 2" uid="link 2*:*Default" version="134">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="link 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.15710802659510839</Mass>
+<CenterOfMass>0.019953818114573189 0.10503610679831299 2.2570757375773689e-07</CenterOfMass>
+<Inertia>0.00039072065843374855 0.0001484422594014057 0.00053720067205146238 9.2033005549638654e-10 6.271516543232828e-10 -0.00014102241815284997</Inertia>
+</MassProperties>
+<GeometryFile name="link 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.54352941176470582" g="0.52980392156862743" b="0.51607843137254905" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="second link holder" uid="second link holder*:*Default" version="205">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="second link holder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015009791766998843</Mass>
+<CenterOfMass>0 0.019900483954204982 0.0049979651835579562</CenterOfMass>
+<Inertia>3.1884942972590189e-06 3.3629187632787314e-06 6.2521904209245852e-06 1.2520812041239568e-10 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="second link holder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

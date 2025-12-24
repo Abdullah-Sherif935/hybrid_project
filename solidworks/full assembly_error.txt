@@ -1,0 +1,12 @@
+Constrained Instances: 'second link holder-1', 'cover of the bearing-3'
+Constraint Name: Lock3
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'second link holder-1', 'cover of the bearing-3'
+Constraint Name: Lock3
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'second link holder-1', 'cover of the bearing-3'
+Constraint Name: Lock3
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
